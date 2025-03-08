@@ -13,7 +13,7 @@ function obterNumeros() {
     if (isNaN(num1) || isNaN(num2)) {
         
         // Caso não foi preenchido algum dos números, será exibida essa mensagem
-        document.getElementById("resultado").innerHTML = "Erro, Digite números!";
+        alert("Erro, Digite números!");
 
         // retorna nulo
         return null;
@@ -87,6 +87,12 @@ function divisao() {
     // Verificar se há valores dentro da var, se não tiver retorna
     if (!numeros) return;
 
+    // Verifica se o divisor é zero
+    if (numeros.num2 === 0) {
+        alert("Erro: Não é possível dividir por zero!");
+        return;
+    }
+
     // Pega os valores e faz a soma dele, salvando na var "resultado"
     let resultado = numeros.num1 / numeros.num2;
     console.log("Soma resultado: ", resultado);
@@ -148,7 +154,7 @@ function desaprecerDiv() {
 
 function reiniciar() {
     
-    //reiniciar
+    //atualiza a página 
     location.reload();
 }
 
