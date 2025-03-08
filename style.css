@@ -14,7 +14,7 @@ body{
         font-family: sans-serif;
         font-size: 12rem;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 0px;
     }
 
     .subtitulo{
@@ -22,6 +22,13 @@ body{
         font-size: 7rem;
         text-align: center;
         margin-top: 1%;
+    }
+
+    .texto_final{
+        font-family: cursive;
+        font-size: 10rem;
+        text-align: center;
+        margin-top: 15%;
     }
 
     label{
@@ -42,8 +49,6 @@ body{
             margin-top: 5%;
     }
     .tela_5{
-        margin-bottom: 10%;
-        margin-top: 10%;
         background-color: #cec2259c;
     }
 
@@ -99,19 +104,60 @@ body{
     }
     
     footer{
-        font-size: 2rem;
-        margin-left: 55%;
+        font-size: 2.5rem;
+        margin-left: 50%;
         margin-top: 5%;
         position: absolute;
-        top: 87%;
+        top: 85%;
     }
     #resultado{
         background-color: burlywood;
         width: max-content;
-        margin-left: 20%;
+        margin-left: 10%;
         padding: 5px;
     }
     
+}
+
+@media screen and (max-width: 2446px){
+    footer {
+        margin-left: 37%;
+        top: 87%;
+    }
+}
+
+@media screen and (max-width: 2181px){
+    footer {
+        margin-left: 44%;
+    }
+}
+
+@media screen and (max-width: 2030px){
+
+    .titulo {
+        font-size: 10rem;
+    }
+
+    .subtitulo {
+        font-size: 5rem;
+    }
+
+    label {
+        font-size: 4rem;
+    }
+
+    .entradaNumero {
+        font-size: 4rem;
+    }
+
+    button {
+        font-size: 3.5rem;
+    }
+
+    footer {
+        margin-left: 31%;
+        top: 85%;
+    }
 }
 
 @media screen and (max-width: 1441px) {
@@ -123,6 +169,13 @@ body{
 
     .subtitulo{
         font-size: 4rem;
+    }
+
+    .texto_final {
+        font-family: cursive;
+        font-size: 5.5rem;
+        text-align: center;
+        margin-top: 15%;
     }
 
     label{
@@ -207,6 +260,10 @@ body{
         font-size: 2rem;
     }
 
+    .texto_final {
+        font-size: 4rem;
+    }
+
     label{
         font-size: 2.5rem;
     }
@@ -267,9 +324,9 @@ body{
     
     footer{
         font-size: 1.1rem;
-        margin-left: 45%;
-        margin-top: 3%;
-        top: 92%;
+        margin-left: 43%;
+        margin-top: 5%;
+        top: 85%;
     }
 
     #resultado{
@@ -289,6 +346,10 @@ body{
 
     .subtitulo{
         font-size: 1.5rem;
+    }
+
+    .texto_final {
+        font-size: 3rem;
     }
 
     label{
@@ -440,7 +501,7 @@ body{
     }
 
     #resultado{
-        margin-left: 32%;
+        margin-left: 15%;
         padding: 5px;
     }
     
